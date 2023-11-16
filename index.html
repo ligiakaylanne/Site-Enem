@@ -8,7 +8,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand bg-body-tertiary" id="centro">
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="">Provas Antigas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Calculadora/index.html">Calculadora de Notas</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Redação
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Redação/index.html">Dicas</a></li>
+                    <li><a class="dropdown-item" href="NotaMil/index.html">Nota Mil</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="Redação/folha-redacao.pdf">Folha em PDF</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <!-- <a class="navbar-brand" href="#">Offcanvas navbar</a> -->
+        </div>
+      </nav>
+      
+      
+    <!-- <nav class="navbar navbar-expand bg-body-tertiary" id="centro">
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="nav nav-tabs">
                 <li class="nav-item">
@@ -25,8 +68,8 @@
                 </li>
             </ul>
         </div>
-    </nav>
-
+    </nav> -->
+<br><br>
     <header class="container mt-5 text-center">
         <h1>Bem-vindo à sua Jornada para o Sucesso no ENEM!</h1>
         <p>Este é o seu ponto de partida para uma preparação sólida e eficaz no ENEM. Aqui, você terá acesso a ferramentas para calcular sua nota, valiosas dicas de cursinhos e a conveniência de baixar folhas de redação em PDF para aprimorar suas habilidades e atingir o seu melhor desempenho no Exame Nacional do Ensino Médio.</p>
@@ -61,9 +104,9 @@
                 </button>
             </div>
         </div>
-        <section class="container text-center mt-4">
+        <!-- <section class="container text-center mt-4">
             <a class="btn btn-primary" href="NotaMil/">ACESSE AQUI E CONFIRA ALGUMAS REDAÇÕES NOTA MIL NO ANO DE 2022 <br></a>
-        </section>
+        </section> -->
     </div>
     <script src="script.js"></script>
 
