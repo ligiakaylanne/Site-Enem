@@ -42,21 +42,6 @@ input {
     border-radius: 5px;
 }
 
-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007F86; /* Cor do botão (azul-verde) */
-    color: black; /* Cor do texto do botão (branco) */
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease; /* Transição de cor suave */
-    }
-
-
-button:hover {
-    background-color: #ADD8E6;
-}
-
 /* Estilos para telas menores (mídia query) */
 @media (max-width: 768px) {
     .notas {
@@ -67,5 +52,35 @@ button:hover {
         width: 100%;
         padding: 6px;
     }
+}
+a, button{
+    display: block;
+    text-align: center;
+    background-color: #007F86;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #ADD8E6;
+    text-decoration: none;
+    color: #007F86;
+}
+
+
+a:hover {
+    background-color: #ADD8E6;
+    text-decoration: none;
+    color: #007F86;
+}
+button{
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    width: 50px;
 }
 
