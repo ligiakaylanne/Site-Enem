@@ -25,3 +25,10 @@ a:hover {
     text-decoration: none;
     color: #007F86;
 }
+#download h2 {
+    color: #007F86;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center; /* Adiciona alinhamento central */
+}
