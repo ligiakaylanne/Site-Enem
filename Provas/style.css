@@ -8,8 +8,8 @@ body {
     background-color: #ADD8E6;
 }
 a {
-    display: block;
-    text-align: center;
+    /* display: block; */
+    /* text-align: center; */
     background-color: #007F86;
     color: #fff;
     padding: 10px 20px;
@@ -30,5 +30,5 @@ a:hover {
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: 10px;
-    text-align: center; /* Adiciona alinhamento central */
+    /* text-align: center; Adiciona alinhamento central */
 }
